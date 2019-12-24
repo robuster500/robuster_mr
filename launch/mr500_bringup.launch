@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- Conect the robot -->
+  <node name="mqttDev" pkg="robuster_mr" type="mqttDev.py"/>
+  <node name="robuster_node_mile" pkg="robuster_mr" type="robuster_node_mile"/>
+
+  <!-- load robot model -->
+  <include file="$(find mr500)/launch/mr500model.launch"/>
+
+ 
+
+
+</launch>
+
+
+
+

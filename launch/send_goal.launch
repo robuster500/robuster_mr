@@ -1,0 +1,27 @@
+<!--xml-->
+<launch>
+    <!--set param-->
+    <param name="goal_x1" type="double" value="4.76" />
+    <param name="goal_y1" type="double" value="-3.82" />
+
+    <param name="goal_x2" type="double" value="-0.71"  />
+    <param name="goal_y2" type="double" value="-4.11" />
+
+     <param name="goal_x3" type="double" value="-3.76"  />
+    <param name="goal_y3" type="double" value="-2.67" />
+ 
+    <param name="goal_x4" type="double" value="-3.84" />
+    <param name="goal_y4" type="double" value="-0.36" />
+   
+  
+    <param name="goal_x5" type="double" value="4.62" />
+    <param name="goal_y5" type="double" value="0.09" />
+  
+   
+    <node pkg="robuster_mr" type="send_goal" respawn="false" name="send_goals" output="screen">
+
+    </node>
+
+</launch>
+
+

@@ -1,0 +1,6 @@
+version:V2.5
+data:2019-09-17
+author:wxc
+info:
+1，增加超声波开关
+2，增加获取设备号ID功能
